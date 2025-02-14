@@ -1,0 +1,23 @@
+{
+"firebaseConfig": {
+    "dev": {
+        "apiKey": "AIzaSyDmiQ3bmatdlIPkWEQSLg2K06IsKKdWJkk",
+        "authDomain": "client-reviwer.firebaseapp.com",
+        "projectId": "client-reviwer",
+        "storageBucket": "client-reviwer.appspot.com",
+        "messagingSenderId": "76452784004",
+        "appId": "1:76452784004:web:f0fe79a6c158c4a202dfd1",
+        "measurementId": "G-0RYRCZEQ3S"
+    } ,
+    "dev": {
+        "apiKey": " ",
+        "authDomain": " m",
+        "projectId": " ",
+        "storageBucket": " ",
+        "messagingSenderId": " ",
+        "appId": " ",
+        "measurementId": "G-NGSJ5TRWTT"
+    }
+
+}
+}

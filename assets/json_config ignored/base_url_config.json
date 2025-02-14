@@ -1,0 +1,7 @@
+{
+"baseUrls": {
+    "remote-dashboard":  "https://europe-west3-i.com",
+   "remote":"https://europe-west3-i.com",",
+    "local": "https://europe-west3-i.com",
+}
+}
