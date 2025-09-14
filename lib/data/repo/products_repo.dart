@@ -1,8 +1,8 @@
-import 'package:JoDija_DataSource/interface/repo/crud_repo.dart';
-import 'package:JoDija_DataSource/interface/sources/i_json_base_source.dart';
-import 'package:JoDija_DataSource/utilis/models/remote_base_model.dart';
-import 'package:JoDija_DataSource/utilis/models/staus_model.dart';
-import 'package:JoDija_DataSource/utilis/result/result_data_indecator.dart';
+import 'package:JoDija_reposatory/interface/repo/crud_repo.dart';
+import 'package:JoDija_reposatory/interface/sources/i_json_base_source.dart';
+import 'package:JoDija_reposatory/utilis/models/remote_base_model.dart';
+import 'package:JoDija_reposatory/utilis/models/staus_model.dart';
+import 'package:JoDija_reposatory/utilis/result/result_data_indecator.dart';
 import 'package:mashir_service/data/model/product.dart';
 
 import '../model/category.dart';
@@ -14,13 +14,13 @@ import '../model/category.dart';
    @override
    Future<RemoteBaseModel> addData() async {
      var data = await _baseDataSourceRepo.addDataItem();
-     return resultDataHelper.getResulInputt(data);
+     return resultDataHelper.getResulInput(data);
    }
 
    @override
    Future<RemoteBaseModel> deleteData(String id) async {
      var data = await _baseDataSourceRepo.deleteDataItem(id);
-     return resultDataHelper.getResulInputt(data);
+     return resultDataHelper.getResulInput(data);
    }
 
    @override
@@ -50,7 +50,7 @@ import '../model/category.dart';
   @override
   Future<RemoteBaseModel> updateData(String id) async {
     var   data = await  _baseDataSourceRepo.editeDataItem(id);
-    return  resultDataHelper.getResulInputt(data );
+    return  resultDataHelper.getResulInput(data );
      }
   ResultDataHelper<ProductDataModel> get resultDataHelper  => ResultDataHelper<ProductDataModel>();
 }

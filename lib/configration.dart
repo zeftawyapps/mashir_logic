@@ -1,4 +1,4 @@
-import 'package:JoDija_DataSource/jodija_configration.dart';
+import 'package:JoDija_reposatory/jodija_configration.dart';
 
 class LogicConfigration extends DataSourceConfigration {
   setAppConfigration(ServiceEnvType senvType, SerViceAppType app,

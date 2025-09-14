@@ -1,5 +1,5 @@
-import 'package:JoDija_DataSource/utilis/models/remote_base_model.dart';
-import 'package:JoDija_DataSource/utilis/models/staus_model.dart';
+import 'package:JoDija_reposatory/utilis/models/remote_base_model.dart';
+import 'package:JoDija_reposatory/utilis/models/staus_model.dart';
 
 import '../source/landing_page_source.dart';
 

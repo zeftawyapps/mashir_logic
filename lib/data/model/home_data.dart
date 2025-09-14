@@ -1,7 +1,7 @@
 
-import 'package:JoDija_DataSource/utilis/models/base_data_model.dart';
+import 'package:JoDija_reposatory/utilis/models/base_data_model.dart';
 
-class LandingPageApiRespons  extends BaseDataModel {
+class LandingPageApiRespons  extends BaseEntityDataModel  {
   final Data data;
   final String status;
   final String? devMessage;
@@ -18,7 +18,7 @@ class LandingPageApiRespons  extends BaseDataModel {
     devMessage: json['devMessage'] as String?,
   );
 }
-class HomeCategory   extends BaseDataModel {
+class HomeCategory   extends BaseEntityDataModel  {
 
     String name;
     String image;
@@ -38,7 +38,7 @@ class HomeCategory   extends BaseDataModel {
     nemeEn: json['name_en'] ??""  as String  ,
   );
 }
-class FavorProduct  extends BaseDataModel {
+class FavorProduct  extends BaseEntityDataModel  {
 
   final String image;
   var data ;
@@ -58,7 +58,7 @@ class FavorProduct  extends BaseDataModel {
     lan: json['language']??"ar" as String,
   );
 }
-class Offer extends BaseDataModel{
+class Offer extends BaseEntityDataModel {
 String image;
 
 String title;
@@ -92,7 +92,7 @@ String pramLink;
    }
 
 }
-class LoadData extends BaseDataModel{
+class LoadData extends BaseEntityDataModel {
   final List<HomeCategory> categorys;
   final List<FavorProduct> favorPorducts;
   Offer offer;

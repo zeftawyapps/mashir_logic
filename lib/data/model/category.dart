@@ -1,6 +1,6 @@
-import 'package:JoDija_DataSource/utilis/models/base_data_model.dart';
+import 'package:JoDija_reposatory/utilis/models/base_data_model.dart';
 
-class CategoryDataModel extends BaseDataModel {
+class CategoryDataModel extends BaseEntityDataModel  {
   String name;
   String nameEn ;
   String? image;

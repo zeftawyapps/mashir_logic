@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:JoDija_DataSource/source/firebase/crud_firebase_source.dart';
-import 'package:JoDija_DataSource/source/user/accountLoginLogout/auth_email_source.dart';
-import 'package:JoDija_DataSource/source/user/accountLoginLogout/auth_google_source.dart';
-import 'package:JoDija_DataSource/source/user/proflle_actions.dart';
+import 'package:JoDija_reposatory/source/firebase/crud_firebase_source.dart';
+import 'package:JoDija_reposatory/source/user/accountLoginLogout/auth_email_source.dart';
+import 'package:JoDija_reposatory/source/user/accountLoginLogout/auth_google_source.dart';
+import 'package:JoDija_reposatory/source/user/proflle_actions.dart';
  import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
 import 'package:mashir_service/data/interface/offers_interface.dart';

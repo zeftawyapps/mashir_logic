@@ -1,9 +1,9 @@
-import 'package:JoDija_DataSource/model/user/base_model/inhertid_models/user_model.dart';
-import 'package:JoDija_DataSource/utilis/models/base_data_model.dart';
+import 'package:JoDija_reposatory/model/user/base_model/inhertid_models/user_model.dart';
+import 'package:JoDija_reposatory/utilis/models/base_data_model.dart';
 
 import '../../consts/values/user_type.dart';
 
-class UsersDataToAdmin   extends  BaseDataModel  {
+class UsersDataToAdmin   extends  BaseEntityDataModel   {
 
   String userType;
   String _nameKey = "name";

@@ -1,6 +1,6 @@
-import 'package:JoDija_DataSource/utilis/models/remote_base_model.dart';
-import 'package:JoDija_DataSource/utilis/models/staus_model.dart';
-import 'package:JoDija_DataSource/utilis/result/result_data_indecator.dart';
+import 'package:JoDija_reposatory/utilis/models/remote_base_model.dart';
+import 'package:JoDija_reposatory/utilis/models/staus_model.dart';
+import 'package:JoDija_reposatory/utilis/result/result_data_indecator.dart';
 import 'package:mashir_service/data/model/images.dart';
 import 'package:mashir_service/data/model/offers.dart';
 

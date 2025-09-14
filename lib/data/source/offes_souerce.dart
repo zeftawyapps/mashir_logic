@@ -1,8 +1,8 @@
-import 'package:JoDija_DataSource/utilis/firebase/firebase.dart';
-import 'package:JoDija_DataSource/utilis/firebase/firebase_and_storage_action.dart';
-import 'package:JoDija_DataSource/utilis/models/base_data_model.dart';
-import 'package:JoDija_DataSource/utilis/models/remote_base_model.dart';
-import 'package:JoDija_DataSource/utilis/result/result.dart';
+import 'package:JoDija_reposatory/utilis/firebase/firebase.dart';
+import 'package:JoDija_reposatory/utilis/firebase/firebase_and_storage_action.dart';
+import 'package:JoDija_reposatory/utilis/models/base_data_model.dart';
+import 'package:JoDija_reposatory/utilis/models/remote_base_model.dart';
+import 'package:JoDija_reposatory/utilis/result/result.dart';
 import 'package:mashir_service/data/interface/offers_interface.dart';
 import 'package:mashir_service/data/model/offers.dart';
 

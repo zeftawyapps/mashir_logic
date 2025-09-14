@@ -1,5 +1,5 @@
-import 'package:JoDija_DataSource/utilis/models/remote_base_model.dart';
-import 'package:JoDija_DataSource/utilis/models/staus_model.dart';
+import 'package:JoDija_reposatory/utilis/models/remote_base_model.dart';
+import 'package:JoDija_reposatory/utilis/models/staus_model.dart';
 import 'package:mashir_service/data/model/suggesment_model.dart';
 
 import '../interface/offers_interface.dart';
